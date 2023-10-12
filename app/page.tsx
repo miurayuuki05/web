@@ -1,6 +1,5 @@
 "use client"
 import Header from './components/Header'
-import Splash from './components/Splashscreen'
 import Products from './components/Products'
 import Spacer from './components/Spacer'
 import Profile from './components/Profile'

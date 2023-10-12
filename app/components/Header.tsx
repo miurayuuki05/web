@@ -1,5 +1,5 @@
-import logoImg from "../../public/logo.png"
-import logoImgWhite from "../../public/logoWhite.png"
+import logoImg from "../resource/logo.png"
+import logoImgWhite from "../resource/logoWhite.png"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Raleway } from 'next/font/google'
