@@ -1,6 +1,4 @@
-import { motion } from "framer-motion"
-
-export default function(){
+export default function Cubeanimation(){
 
     return(
         <div className="mt-10 mb-10">
