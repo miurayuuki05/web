@@ -1,6 +1,6 @@
 import { Raleway } from "next/font/google"
 import Image from "next/image";
-import strapImg from '/app/resource/strapiimg.jpg'
+import strapImg from '/app/resource/strapiimg.png'
 import expressImg from '/app/resource/expressimg.jpg'
 import reactImg from '/app/resource/reactjsimg.jpg'
 import nodeImg from '/app/resource/nodejsimg.png'
