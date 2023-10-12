@@ -8,7 +8,7 @@ import Svgspacer from "../components/Svgspacer"
 
 export default async function Products (){
     return(
-        <div className="flex flex-col min-h-screen items-center justify-between z-20">
+        <div className="flex flex-col min-h-screen items-center justify-between z-20 w-[100%]">
             <Header/>
             <Productsdata/>
             <Spacer/>
