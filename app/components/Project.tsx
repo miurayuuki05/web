@@ -14,7 +14,7 @@ export default async function Project() {
             </div>
             <div className="flex flex-wrap justify-evenly gap-20">
                 {project && project.map((data : any) => (
-                    <div>
+                    <div key={project.title}>
                         <a href={data.link} target="_blank"><img className="w-96 h-96 object-cover hover:border-4 duration-200" src={data.imageUrl} alt="project"/></a>
                         <p>{data.title}</p>
                     </div>

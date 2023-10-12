@@ -16,6 +16,7 @@ export default async function Products (){
             <div className="flex flex-wrap justify-evenly mt-20">
             {post && post.map((data : any) => (
                 <motion.div 
+                key={data.slug.current}
                 initial={{y : 100, opacity : 0}}
                 whileInView={{y : 0, opacity : 1}}
                 whileHover={{y : -10}}
