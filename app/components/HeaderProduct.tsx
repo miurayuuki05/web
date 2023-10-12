@@ -36,7 +36,7 @@ export default function Header(){
             <div className="w-[100%] flex justify-between ml-10 mr-0">
                 <a href="/"><Image className="mt-7 select-none " src={isDark ? logoImgWhite : logoImg} alt="logo" height={200} width={200}/></a>
                 <div className={stat ? "buttonOpen" : ""} onClick={() => menuButton()}><div className="buttonMenu mt-12"/></div>
-                <ul className={stat ? "duration-200 md:w-40 md:flex md:justify-evenly absolute md:right-0 md:top-0 top-[200%] right-[30%] mr-5 flex-row md:mt-10 md:bg-transparent bg-slate-700 bg-opacity-50 py-5 rounded-md" : "duration-200 md:w-40 md:flex md:justify-evenly absolute md:right-0 md:top-0 top-[-200%] right-[30%] mr-5 flex-row md:mt-10 md:bg-transparent bg-slate-700 bg-opacity-50 py-5 rounded-md"}>
+                <ul className={stat ? "duration-200 md:w-[35%] md:flex md:justify-evenly absolute md:right-0 md:top-0 top-[200%] right-[30%] mr-5 flex-row md:mt-10 md:bg-transparent bg-slate-700 bg-opacity-50 py-5 rounded-md" : "duration-200 md:w-[35%] md:flex md:justify-evenly absolute md:right-0 md:top-0 top-[-200%] right-[30%] mr-5 flex-row md:mt-10 md:bg-transparent bg-slate-700 bg-opacity-50 py-5 rounded-md"}>
                     <div className="OnavList flex" onClick={()=> menuButton()}>
                         <div className="beforeNav mx-4">→</div>
                         <motion.li whileTap={{scale : 0.8}} 
