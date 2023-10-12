@@ -1,19 +1,19 @@
 import { Raleway } from "next/font/google"
 import Image from "next/image";
-import strapImg from './app/resource/strapimg.jpg'
-import expressImg from './app/resource/expressimg.jpg'
-import reactImg from './app/resource/reactjsimg.jpg'
-import nodeImg from './app/resource/nodejsimg.png'
-import laravelImg from './app/resource/laravelimg.jpg'
-import mongodbImg from './app/resource/mongodbimg.jpg'
-import flutterImg from './app/resource/flutterImg.jpg'
-import ionicImg from './app/resource/ionicImg.jpg'
-import nextjsImg from './app/resource/nextjsImg.png'
-import reactnatImg from './app/resource/reactnatImg.png'
-import dockerImg from './app/resource/dockerImg.png'
-import mysqlimg from './app/resource/mysqlimg.jpg'
-import firebaseimg from './app/resource/firebaseimg.png'
-import awsimg from './app/resource/awsimg.jpg'
+import strapImg from '/app/resource/strapimg.jpg'
+import expressImg from '/app/resource/expressimg.jpg'
+import reactImg from '/app/resource/reactjsimg.jpg'
+import nodeImg from '/app/resource/nodejsimg.png'
+import laravelImg from '/app/resource/laravelimg.jpg'
+import mongodbImg from '/app/resource/mongodbimg.jpg'
+import flutterImg from '/app/resource/flutterImg.jpg'
+import ionicImg from '/app/resource/ionicImg.jpg'
+import nextjsImg from '/app/resource/nextjsImg.png'
+import reactnatImg from '/app/resource/reactnatImg.png'
+import dockerImg from '/app/resource/dockerImg.png'
+import mysqlimg from '/app/resource/mysqlimg.jpg'
+import firebaseimg from '/app/resource/firebaseimg.png'
+import awsimg from '/app/resource/awsimg.jpg'
 import { motion } from "framer-motion";
 
 
