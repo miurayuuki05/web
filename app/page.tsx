@@ -1,4 +1,3 @@
-"use client"
 import Header from './components/Header'
 import Products from './components/Products'
 import Spacer from './components/Spacer'
@@ -15,7 +14,6 @@ export default function Home() {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between z-20">
       <Header/>
-      <Particlebg/>
       <Spacer/>
       <Profile/>
       <Spacer/>

@@ -1,3 +1,4 @@
+"use client"
 import { Inter } from "next/font/google"
 import {AiFillGithub, AiOutlineLinkedin, AiFillLinkedin, AiOutlineMail} from 'react-icons/ai'
 import { useState, useEffect } from "react"

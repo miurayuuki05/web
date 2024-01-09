@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import { useParams } from 'next/navigation';
 import Cubeanimation from '../components/Cubeanimation';
 
-const inter = Inter({weight:"800", subsets: ['latin']})
+const inter:any = Inter({weight:"800", subsets: ['latin']})
 
 export default async function Productsdata (){
     const result = useParams();
