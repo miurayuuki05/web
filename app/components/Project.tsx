@@ -5,7 +5,7 @@ const inter = Inter({weight:"800", subsets: ['latin']})
 
 
 export default async function Project() {
-    const project = await getProject();
+    var project = await getProject();
 
     return (
         <div className={inter.className + " text-center pt-20"} id="project">
