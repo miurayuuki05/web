@@ -1,4 +1,3 @@
-"use client"
 import Productsdata from "./Productsdata"
 import Header from "../components/HeaderProduct"
 import Spacer from "../components/Spacer"
