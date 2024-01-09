@@ -1,3 +1,4 @@
+"use client"
 import logoImg from "../resource/logo.png"
 import logoImgWhite from "../resource/logowhite.png"
 import Image from "next/image"
