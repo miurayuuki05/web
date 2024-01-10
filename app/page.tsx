@@ -27,7 +27,7 @@ export const getServerSideProps = (async () => {
   }
 }) satisfies GetServerSideProps<{ project: ProjectProps }>
 
-export default function Page( { project }: InferGetServerSidePropsType<typeof getServerSideProps>) {
+export default function Home( { project }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   return (
     <main className="flex flex-col min-h-screen items-center justify-between z-20">
       <Header/>
