@@ -1,12 +1,15 @@
 import { getProject } from "@/sanity/sanity.query";
 import { Inter } from "next/font/google";
+import type { InferGetServerSidePropsType, GetServerSideProps } from 'next'
 
 const inter = Inter({weight:"800", subsets: ['latin']})
 
+type ProjectProps  = {
+    project: any;
+}
 
-export default async function Project() {
-    var project = await getProject();
-
+export default async function Project( { project }: InferGetServerSidePropsType<typeof getServerSideProps>) {
+    
     return (
         <div className={inter.className + " text-center pt-20"} id="project">
             <div className="mb-20">
@@ -24,3 +27,14 @@ export default async function Project() {
         </div>
     );
 }
+
+export const getServerSideProps = (async () => {
+    const project = await getProject();
+    return {
+        props: {
+            project
+        }
+    }
+})satisfies GetServerSideProps<{ project: ProjectProps }>
+
+

@@ -14,5 +14,5 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-  useCdn: true,
+  useCdn: false,
 })
