@@ -8,6 +8,15 @@ type ProjectProps  = {
     project: any;
 }
 
+export const getServerSideProps = (async () => {
+    const project = await getProject();
+    return {
+        props: {
+            project
+        }
+    }
+})satisfies GetServerSideProps<{ project: ProjectProps }>
+
 export default async function Project( { project }: InferGetServerSidePropsType<typeof getServerSideProps>) {
     
     return (
@@ -27,14 +36,5 @@ export default async function Project( { project }: InferGetServerSidePropsType<
         </div>
     );
 }
-
-export const getServerSideProps = (async () => {
-    const project = await getProject();
-    return {
-        props: {
-            project
-        }
-    }
-})satisfies GetServerSideProps<{ project: ProjectProps }>
 
 
